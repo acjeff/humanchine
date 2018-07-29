@@ -1,5 +1,6 @@
 /// @description
 ds_crops_types = 0;
+ds_crops_instances = 0;
 
 enum crop {
 	tomatoe,
