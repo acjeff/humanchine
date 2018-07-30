@@ -22,7 +22,7 @@ else x_frame = 0;
 if (spr_shadow) draw_sprite(spr_character_shadow, 0, x, y)
 
 //DRAW CHARACTER BASE
-if (spr_base) draw_sprite_part(spr_base, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size / 2, frame_size, xx, yy);
+if (spr_base) draw_sprite_part(spr_base, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
 
 //DRAW CHARACTER FEET
 //if (spr_feet) draw_sprite_part(spr_feet, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size / 2, frame_size, xx, yy);
