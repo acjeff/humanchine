@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "8dc3609f-b4f2-4505-8536-5970a3a9c99e",
+            "Value": {
+                "id": "8ff304d9-cd4a-4c1b-b1c1-13af2e54e1c1",
+                "resourcePath": "sprites\\spr_silas\\spr_silas.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "90a34334-a053-4c39-b63f-a19454e05131",
             "Value": {
                 "id": "11a560ce-21d7-4a73-8e8a-1e9517a01983",
