@@ -5,11 +5,11 @@ var anim_speed = 8;
 
 switch(facing) {
 	case dir.left: {
-		anim_length = 10;
+		anim_length = 9;
 		spr_base = spr_silas_walking_left;
 		} break;
 	case dir.right: {
-		anim_length = 10;
+		anim_length = 9;
 		spr_base = spr_silas_walking_right;
 		} break;
 	case dir.down: {
@@ -17,7 +17,7 @@ switch(facing) {
 		spr_base = spr_silas_walking_down;
 		} break;
 	case dir.up: {
-		anim_length = 6;
+		anim_length = 5;
 		spr_base = spr_silas_walking_up;
 		} break;
 	case -1: break;
@@ -27,8 +27,8 @@ var xx = x - x_offset;
 var yy = y - y_offset;
 
 //INCREMENT FRAME FOR ANIMATION
-if ((x_frame + (anim_speed / 60) < anim_length - 1) and facing != -1) x_frame += anim_speed / 60
-else if ((x_frame + (anim_speed / 60) == anim_length - 1) and facing != -1) x_frame = 1
+if ((x_frame + (anim_speed / 60) < anim_length) and facing != -1) x_frame += anim_speed / 60
+else if ((x_frame + (anim_speed / 60) == anim_length) and facing != -1) x_frame = 1
 else x_frame = 0;
 
 //DRAW CHARACTER SHADOW

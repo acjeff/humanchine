@@ -3,7 +3,7 @@
 #region Planting
 if (keyboard_check_pressed(ord("P"))) {planting = !planting};
 
-if (planting) {
+if (planting && room = rm_farm) {
 	mx = mouse_x;
 	my = mouse_y;
 	

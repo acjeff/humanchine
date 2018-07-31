@@ -1,5 +1,5 @@
  /// @description 
-if (!planting) exit;
+if (!planting || room != rm_farm) exit;
 
 var cs = cellSize;
 var gx = (mx div cs);
@@ -7,6 +7,7 @@ var gy = (my div cs);
 
 // What is in the cell
 var c = c_red;
+
 var cell = ds_crops_instances[# gx, gy];
 
 if (cell == 0) {
