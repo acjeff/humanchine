@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "11e07920-a0db-4f48-8b82-96534ec0d2ed",
+            "Value": {
+                "id": "f117339f-2434-42ea-abad-5e18fba09c86",
+                "resourcePath": "scripts\\merge_number\\merge_number.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "11f4c853-641b-44f8-8391-afdf3659d443",
             "Value": {
                 "id": "49d8d45a-46f1-4bf9-b690-7a1a58a37514",
@@ -156,6 +164,14 @@
                 "id": "0d79c43f-78b6-4582-9d94-0ac4b6f69505",
                 "resourcePath": "sprites\\spr_crops\\spr_crops.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "199c3e96-661f-4cd9-8297-3bc49c29a619",
+            "Value": {
+                "id": "3babb2b8-6cef-4119-931b-d6cc0c350c88",
+                "resourcePath": "objects\\depth_sorter\\depth_sorter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "41675992-971d-4d02-a0f5-9b4de7fbe5b1",
+            "Value": {
+                "id": "034661c2-4194-4c47-9166-bb021f5d8110",
+                "resourcePath": "objects\\par_depth_object\\par_depth_object.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "479ed50b-dee1-4d43-aa3d-334c1c82a052",
             "Value": {
                 "id": "e764c310-f8bb-4924-910e-aacc5bd8247f",
@@ -266,7 +290,7 @@
             "Key": "536a7689-f16b-4b00-89cd-e34beb120e96",
             "Value": {
                 "id": "b9ef0ab9-804a-4d13-9b69-82f1c13f7d9b",
-                "resourcePath": "objects\\obj_parent_NPC\\obj_parent_NPC.yy",
+                "resourcePath": "objects\\par_NPC\\par_NPC.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -292,6 +316,14 @@
                 "id": "bedd30d8-845c-4778-9792-b1b2f8da698a",
                 "resourcePath": "sprites\\spr_silas_walking_left\\spr_silas_walking_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "66464b34-446c-4bec-9af6-14eb974a8e28",
+            "Value": {
+                "id": "94edf316-6208-42e7-840d-46a33e5f3c04",
+                "resourcePath": "views\\66464b34-446c-4bec-9af6-14eb974a8e28.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -340,6 +372,14 @@
                 "id": "59454e8e-25ea-49ef-9b1f-7a10cfaf748c",
                 "resourcePath": "views\\6fa63e2a-1beb-47d3-b1df-d98eec9abcf8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "71f908c6-dd5d-4b62-b142-9faaf040d9ca",
+            "Value": {
+                "id": "66553d82-7391-4598-95c5-bcc5688f139c",
+                "resourcePath": "objects\\day_cycle\\day_cycle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -778,7 +818,8 @@
     "script_order": [
         "db78f34c-50a8-4169-97cf-5327a6afe473",
         "298f3228-bf11-49ec-8df6-c71b9918530d",
-        "032ce34c-1c07-4e2a-8292-9495de475a93"
+        "032ce34c-1c07-4e2a-8292-9495de475a93",
+        "11e07920-a0db-4f48-8b82-96534ec0d2ed"
     ],
     "tutorial": ""
 }

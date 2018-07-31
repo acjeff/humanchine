@@ -40,7 +40,8 @@ else if (moveY != 0) {
 //COLLISION CHECKS
 //Horizontal
 if (moveX != 0) {
-	if (place_meeting(x + moveX, y, obj_collision)) {
+	var collisionH = instance_place(x + moveX, y, obj_collision);
+	if (collisionH != noone and collisionH.collidable) {
 		repeat(abs(moveX)) {
 			if (!place_meeting(x + sign(moveX), y, obj_collision)) x += sign(moveX)
 			else break;
@@ -51,7 +52,8 @@ if (moveX != 0) {
 
 //Verticle
 if (moveY != 0) {
-	if (place_meeting(x, y + moveY, obj_collision)) {
+	var collisionV = instance_place(x, y + moveY, obj_collision);
+	if (collisionV != noone and collisionV.collidable) {
 		repeat(abs(moveY)) {
 			if (!place_meeting(x, y + sign(moveY), obj_collision)) y += sign(moveY)
 			else break;
