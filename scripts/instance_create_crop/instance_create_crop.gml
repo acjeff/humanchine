@@ -11,8 +11,8 @@ var cell = i_grid[# gx, gy];
 
 if (!cell) {
 
-	xx = xx * cs;
-	yy = yy * cs;
+	gx = gx * cs;
+	gy = gy * cs;
 
 	//Check for soil
 	var lay_id = layer_get_id("T_Soil");

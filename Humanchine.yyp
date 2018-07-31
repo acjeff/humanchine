@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "64264580-3661-4017-aada-45c666c4de83",
+            "Value": {
+                "id": "bedd30d8-845c-4778-9792-b1b2f8da698a",
+                "resourcePath": "sprites\\spr_silas_walking_left\\spr_silas_walking_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "67415088-0d42-44ac-b01d-067fd72f815c",
             "Value": {
                 "id": "7a8c8332-3241-495c-af9e-843632a3c52d",
@@ -323,6 +331,14 @@
             "Value": {
                 "id": "59454e8e-25ea-49ef-9b1f-7a10cfaf748c",
                 "resourcePath": "views\\6fa63e2a-1beb-47d3-b1df-d98eec9abcf8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "74430520-13b4-4458-becf-3b23779fffda",
+            "Value": {
+                "id": "9361e6a3-955d-40bb-a90a-6fcceade3156",
+                "resourcePath": "views\\74430520-13b4-4458-becf-3b23779fffda.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -415,6 +431,14 @@
             }
         },
         {
+            "Key": "85f66a9b-9e06-47bc-be7e-c06ba0beae3a",
+            "Value": {
+                "id": "b27b03e0-3298-4286-aa48-de89d5fa20b2",
+                "resourcePath": "sprites\\spr_silas_walking_down\\spr_silas_walking_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "863928f3-b4d4-4e73-80d7-f7ca473fdf5c",
             "Value": {
                 "id": "2ef7a3e2-eb5a-4245-9d2b-d338a6dc6349",
@@ -444,6 +468,14 @@
                 "id": "11a560ce-21d7-4a73-8e8a-1e9517a01983",
                 "resourcePath": "views\\90a34334-a053-4c39-b63f-a19454e05131.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "93313640-c0c1-47ba-8071-93d40696bf1d",
+            "Value": {
+                "id": "f34d4a6a-9674-4006-b6ac-0484f120d31c",
+                "resourcePath": "sprites\\spr_silas_walking_up\\spr_silas_walking_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -499,6 +531,14 @@
             "Value": {
                 "id": "00a74fec-14c9-4441-97b7-762b4031151c",
                 "resourcePath": "sprites\\spr_base_female_4\\spr_base_female_4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9d306efa-48be-44b0-a1c9-304b9e47fb2c",
+            "Value": {
+                "id": "5f7b0a2a-26ce-48a7-aab5-016ee57a18a6",
+                "resourcePath": "sprites\\spr_silas_walking_right\\spr_silas_walking_right.yy",
                 "resourceType": "GMSprite"
             }
         },
