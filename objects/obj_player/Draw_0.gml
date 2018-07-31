@@ -27,8 +27,6 @@ var xx = x - x_offset;
 var yy = y - y_offset;
 
 //INCREMENT FRAME FOR ANIMATION
-show_debug_message(x_frame);
-show_debug_message(anim_length)
 if ((x_frame + (anim_speed / 60) < anim_length - 1) and facing != -1) x_frame += anim_speed / 60
 else if ((x_frame + (anim_speed / 60) == anim_length - 1) and facing != -1) x_frame = 1
 else x_frame = 0;

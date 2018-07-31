@@ -1,0 +1,2 @@
+/// @description
+sparkle = 0;

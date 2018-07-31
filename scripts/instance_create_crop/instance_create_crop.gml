@@ -9,10 +9,12 @@ var gy = argument1 div cs;
 var i_grid = crops.ds_crops_instances;
 var cell = i_grid[# gx, gy];
 
-if (!cell) {
+show_debug_message(cell);
 
-	gx = gx * cs;
-	gy = gy * cs;
+if (cell == 0) {
+
+	xx = gx * cs;
+	yy = gy * cs;
 
 	//Check for soil
 	var lay_id = layer_get_id("T_Soil");
@@ -28,7 +30,7 @@ if (!cell) {
 	}
 
 	// Create the instance
-	var inst = instance_create_layer(gx + (cs / 2), gy + (cs / 2), "Instances", obj_crop);
+	var inst = instance_create_layer(xx + (cs / 2), yy + (cs / 2), "Instances", obj_crop);
 	i_grid[# gx, gy] = inst; 
 
 	//Give the crop it's characteristics

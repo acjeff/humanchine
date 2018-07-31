@@ -62,7 +62,6 @@ if (moveY != 0) {
 
 //Objects
 var inst = instance_place(x, y, obj_transition);
-show_debug_message(string(facing));
 if (inst != noone && facing == inst.playerFacingBefore) {
 	with(game) {
 		if (!doTransition) {
