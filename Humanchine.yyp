@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0e11821f-ca6f-4be3-a688-1a62114d3209",
+            "Value": {
+                "id": "88e1dfac-99ca-4db8-be78-428585d74a14",
+                "resourcePath": "sprites\\spr_inventory_UI\\spr_inventory_UI.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "103f8541-5100-4903-a051-dd10dbf67dff",
             "Value": {
                 "id": "3c8e7eee-8bb7-4d16-b7f8-fe0c7c516eb0",
@@ -116,6 +124,14 @@
                 "id": "49d8d45a-46f1-4bf9-b690-7a1a58a37514",
                 "resourcePath": "views\\11f4c853-641b-44f8-8391-afdf3659d443.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "13130408-d6e4-43b4-adb2-d791fe5ae350",
+            "Value": {
+                "id": "17985b87-11ac-45fe-8cfa-1b10daea82a7",
+                "resourcePath": "sprites\\spr_all_coins\\spr_all_coins.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -271,6 +287,14 @@
             }
         },
         {
+            "Key": "4c39c0e3-31e1-48b3-b17f-4e9f3eee410e",
+            "Value": {
+                "id": "efbb144e-1a1b-4ce6-ad13-9a39747c06fa",
+                "resourcePath": "objects\\inventory\\inventory.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4ef604ba-c8df-4081-8ad1-03f2fd6e9c09",
             "Value": {
                 "id": "f76d4c6c-e0af-4e26-8b61-c435dec6117f",
@@ -407,6 +431,14 @@
             }
         },
         {
+            "Key": "77b284ec-6bc7-4518-b505-2dc36391aaf5",
+            "Value": {
+                "id": "da506b35-f7d1-42b7-baad-f7e147782dff",
+                "resourcePath": "fonts\\fnt_text_12\\fnt_text_12.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "7a820161-2368-4203-8b0d-3c483790d258",
             "Value": {
                 "id": "ffbf85e3-8d84-41bd-b571-aad205fddc58",
@@ -508,6 +540,14 @@
                 "id": "de8fa6bc-1760-4f37-9dfa-59fae11b28d9",
                 "resourcePath": "views\\898ff7b2-39cd-4b55-923e-c5f51395953e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8dc15bd6-230e-4344-a164-6b88e8c98bca",
+            "Value": {
+                "id": "f4d14459-2fef-4093-8af4-2dcc16f227e1",
+                "resourcePath": "fonts\\fnt_text_24\\fnt_text_24.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -615,6 +655,14 @@
             }
         },
         {
+            "Key": "a2fc259c-b1df-41d5-9c33-388c3b8f7b42",
+            "Value": {
+                "id": "9dc36662-9b16-4084-825c-8022e52e3e03",
+                "resourcePath": "views\\a2fc259c-b1df-41d5-9c33-388c3b8f7b42.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a8d6e8ce-c2d4-4712-a6af-ad0c5dded45d",
             "Value": {
                 "id": "088fbab7-517f-403e-beff-8e8725bd0c92",
@@ -635,6 +683,14 @@
             "Value": {
                 "id": "f051c951-1d5a-413b-8ca9-29a326d1b153",
                 "resourcePath": "sprites\\spr_hair_female_pixie_blonde\\spr_hair_female_pixie_blonde.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b38d7106-c4f4-43be-9d07-8305b764cc5e",
+            "Value": {
+                "id": "fe0c14f8-fec8-4a12-9639-8b4751903dd3",
+                "resourcePath": "sprites\\spr_inventory_items\\spr_inventory_items.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -668,6 +724,14 @@
                 "id": "866137fc-fe01-455e-88bd-faa72cf394d5",
                 "resourcePath": "views\\c0701ac7-5b6a-45de-bc22-54a74cb44f87.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c0e9248d-dddc-4674-87b7-38f9fb1e17d9",
+            "Value": {
+                "id": "a442fd16-7773-4e9c-844f-d81de8d179a8",
+                "resourcePath": "fonts\\fnt_small_digits\\fnt_small_digits.yy",
+                "resourceType": "GMFont"
             }
         },
         {
