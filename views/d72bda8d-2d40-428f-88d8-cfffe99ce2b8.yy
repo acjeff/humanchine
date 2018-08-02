@@ -6,7 +6,8 @@
     "children": [
         "213980db-33ed-4752-8229-3e0c514c8959",
         "0bac2a13-f595-4df2-a01b-cd2ca1b4f5c8",
-        "58496d30-f24c-4bb5-aa6f-0a3f708b8116"
+        "58496d30-f24c-4bb5-aa6f-0a3f708b8116",
+        "4884ac76-c4e5-4d52-a466-2325a137b1f9"
     ],
     "filterType": "GMSprite",
     "folderName": "Tile Sprites",
