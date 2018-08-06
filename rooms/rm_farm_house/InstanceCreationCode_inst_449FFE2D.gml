@@ -1,5 +1,5 @@
 targetRoom = rm_farm;
-targetX = 440;
-targetY = 321;
+targetX = 496;
+targetY = 445;
 playerFacingBefore = dir.down;
 playerFacingAfter = dir.down;
