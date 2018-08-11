@@ -5,7 +5,7 @@ var c = c_black;
 
 draw_set_alpha(0.7);
 
-draw_rectangle_color(0, 0, gui_width, gui_height, c, c, c, c, false);
+draw_rectangle_color(0, 0, gui_width * scale, gui_height * scale, c, c, c, c, false);
 
 draw_set_alpha(1);
 
@@ -57,6 +57,11 @@ repeat(inv_slots) {
 			draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale, scale, c_white, 0.3);
 			gpu_set_blendmode(bm_normal);
 		break;
+		
+		case pickup_slot:
+				draw_sprite_part_ext(
+					spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 0.2
+				);
 		default:
 			if (iitem > 0) {
 				draw_sprite_part_ext(
@@ -80,3 +85,15 @@ repeat(inv_slots) {
 
 }
 
+if (pickup_slot != -1) {
+	iitem = inv_grid[# 0, pickup_slot];
+	sx = (iitem mod spr_inv_items_columns) * cell_size;
+	sy = (iitem div spr_inv_items_columns) * cell_size;
+	
+	draw_sprite_part_ext(
+					spr_inv_items, 0, sx, sy, cell_size, cell_size, mousex, mousey, scale, scale, c_white, 1
+				);
+				
+	var inum = inv_grid[# 1, pickup_slot];
+	draw_text_color(mousex + (cell_size * scale * 0.5), mousey, string(inum), c, c, c, c, 1);
+}
