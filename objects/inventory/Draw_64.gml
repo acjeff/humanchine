@@ -59,13 +59,16 @@ repeat(inv_slots) {
 		break;
 		
 		case pickup_slot:
+			if (iitem > 0) {
 				draw_sprite_part_ext(
 					spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 0.2
 				);
+			}	
+		
 		default:
 			if (iitem > 0) {
 				draw_sprite_part_ext(
-					spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 1
+					spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 0.2
 				);
 			}
 		break;
