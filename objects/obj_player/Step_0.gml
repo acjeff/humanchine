@@ -1,4 +1,5 @@
 //-------UPDATE INPUT
+if (global.show_inventory) exit;
 var input_left = keyboard_check(ord("A"));
 var input_right = keyboard_check(ord("D"));
 var input_up = keyboard_check(ord("W"));

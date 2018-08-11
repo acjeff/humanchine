@@ -7,6 +7,16 @@ inv_slots = 16;
 inv_slots_width = 8;
 inv_slots_height = 3;
 
+selected_slot = 0;
+pickup_item = -1;
+m_slotx = 0;
+m_sloty = 0;
+
+
+
+x_buffer = 2;
+y_buffer = 4;
+
 cell_size = 32;
 
 gui_width = display_get_gui_width();
@@ -72,5 +82,6 @@ enum item {
 var yy = 0; repeat(inv_slots) {
 	ds_inventory[# 0, yy] = irandom_range(1, item.height - 1);
 	ds_inventory[# 1, yy] = irandom_range(1, 10);
+	yy += 1;
 }
 
