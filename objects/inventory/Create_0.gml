@@ -12,8 +12,6 @@ pickup_slot = -1;
 m_slotx = 0;
 m_sloty = 0;
 
-
-
 x_buffer = 2;
 y_buffer = 4;
 
@@ -40,6 +38,9 @@ info_y = inv_UI_y + (9 * scale);
 
 slots_x = info_x;
 slots_y = inv_UI_y + (40 * scale);
+
+desc_x = info_x;
+desc_y = inv_UI_y + (156 * scale);
 
 //Player info
 ds_player_info = ds_grid_create(2, 4);
@@ -78,6 +79,52 @@ enum item {
 	mushroom = 16,
 	height = 17
 }
+
+#region Create Items Info Grid
+	ds_items_info = ds_grid_create(2, item.height);
+	
+	//Item names
+	var z = 0, i = 0;
+	ds_items_info[# z, i++] = "Nothing";
+	ds_items_info[# z, i++] = "Tomatoe";
+	ds_items_info[# z, i++] = "Potatoe";
+	ds_items_info[# z, i++] = "Carrot";
+	ds_items_info[# z, i++] = "Artichoke";
+	ds_items_info[# z, i++] = "Chili";
+	ds_items_info[# z, i++] = "Gord";
+	ds_items_info[# z, i++] = "Corn";
+	ds_items_info[# z, i++] = "Wood";
+	ds_items_info[# z, i++] = "Stone";
+	ds_items_info[# z, i++] = "Bucket";
+	ds_items_info[# z, i++] = "Chair";
+	ds_items_info[# z, i++] = "Picture";
+	ds_items_info[# z, i++] = "Axe";
+	ds_items_info[# z, i++] = "Potion";
+	ds_items_info[# z, i++] = "Starfish";
+	ds_items_info[# z, i++] = "Mushroom";
+	
+	
+	//Item descriptions
+	var z = 1, i = 0;
+	ds_items_info[# z, i++] = "There is nothing here";
+	ds_items_info[# z, i++] = "A red juicy vegetable";
+	ds_items_info[# z, i++] = "Luck of the Irish";
+	ds_items_info[# z, i++] = "Good for night vision";
+	ds_items_info[# z, i++] = "Who gives a shit";
+	ds_items_info[# z, i++] = "Hot, hothothot!!";
+	ds_items_info[# z, i++] = "Have no idea what this is";
+	ds_items_info[# z, i++] = "Children of the...";
+	ds_items_info[# z, i++] = "Good for shoving in your ass";
+	ds_items_info[# z, i++] = "Good for shoving in someone elses ass";
+	ds_items_info[# z, i++] = "Put water in it";
+	ds_items_info[# z, i++] = "Good for putting under your ass";
+	ds_items_info[# z, i++] = "A picture of your daughter...Who is not dead";
+	ds_items_info[# z, i++] = "Chop, chop, chop";
+	ds_items_info[# z, i++] = "Drink iiitttt!";
+	ds_items_info[# z, i++] = "Not sure why you would need one of these really";
+	ds_items_info[# z, i++] = "I never should have had those Shrooms!!";
+	
+#endregion
 
 var yy = 0; repeat(inv_slots) {
 	ds_inventory[# 0, yy] = irandom_range(1, item.height - 1);

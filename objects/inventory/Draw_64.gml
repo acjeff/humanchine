@@ -68,7 +68,7 @@ repeat(inv_slots) {
 		default:
 			if (iitem > 0) {
 				draw_sprite_part_ext(
-					spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 0.2
+					spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 1
 				);
 			}
 		break;
@@ -88,7 +88,21 @@ repeat(inv_slots) {
 
 }
 
+//Draw item description
+var iinfo_grid = ds_items_info, description = "";
+show_debug_message(string(selected_slot) + " Selected slot");
+iitem = inv_grid[# 0, selected_slot];
+show_debug_message(iitem);
+if (iitem > 0) {
+	draw_set_font(fnt_text_12);
+	description = iinfo_grid[# 0, iitem] + ". " + iinfo_grid[# 1, iitem];
+	c = c_black
+	draw_text_ext_color(desc_x, desc_y, description, string_height("M"), (inv_UI_width*scale) - (x_buffer*2), c, c, c, c, 1);
+}
+
+
 if (pickup_slot != -1) {
+
 	iitem = inv_grid[# 0, pickup_slot];
 	sx = (iitem mod spr_inv_items_columns) * cell_size;
 	sy = (iitem div spr_inv_items_columns) * cell_size;
