@@ -58,6 +58,25 @@
             }
         },
         {
+            "Key": "037ec06d-2b1c-45ac-8990-22020e91ef29",
+            "Value": {
+                "id": "f11ceff4-4ffe-4838-a49e-b5a1552706ab",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/string_wrap\/string_wrap.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "062bac31-6a10-46b0-bd4c-4062dc004c61",
             "Value": {
                 "id": "80ca2eb3-5b32-425e-9662-029b1b97f6dd",
@@ -1141,6 +1160,25 @@
             }
         },
         {
+            "Key": "767a2dde-27db-4a9f-9f1e-a1a8b0df5d01",
+            "Value": {
+                "id": "57fd49dc-4a65-4a8e-bebf-5008efe5ab98",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_voice1\/snd_voice1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "77b284ec-6bc7-4518-b505-2dc36391aaf5",
             "Value": {
                 "id": "da506b35-f7d1-42b7-baad-f7e147782dff",
@@ -1176,6 +1214,25 @@
                 ],
                 "resourcePath": "views\/7a820161-2368-4203-8b0d-3c483790d258.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7b2369f3-48fc-4a6a-8033-b1a4c8f5ad55",
+            "Value": {
+                "id": "52fc4ce4-0db3-460a-bfc3-bbac62dc50f1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_voice2\/snd_voice2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2015,6 +2072,25 @@
             }
         },
         {
+            "Key": "d206fecc-2e07-4057-8abb-54471f718be4",
+            "Value": {
+                "id": "3640a298-ba96-4e07-ac42-8fa4bd340b10",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_voice4\/snd_voice4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d5a888dd-9c6c-4f35-af5e-b390d10095d5",
             "Value": {
                 "id": "1603a261-2088-4ad8-9efb-58e927a0cd50",
@@ -2281,6 +2357,25 @@
             }
         },
         {
+            "Key": "f7c2de40-81ef-43f4-b88e-3929c624fe4d",
+            "Value": {
+                "id": "407cf297-7206-49a2-b9c7-209a123e5dea",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/snd_voice3\/snd_voice3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "fa79aed9-282a-4807-8927-dfadfb993ae1",
             "Value": {
                 "id": "6ac1aadd-3593-4d02-88af-d4eb9ab3e21e",
@@ -2342,7 +2437,8 @@
         "db78f34c-50a8-4169-97cf-5327a6afe473",
         "298f3228-bf11-49ec-8df6-c71b9918530d",
         "032ce34c-1c07-4e2a-8292-9495de475a93",
-        "11e07920-a0db-4f48-8b82-96534ec0d2ed"
+        "11e07920-a0db-4f48-8b82-96534ec0d2ed",
+        "037ec06d-2b1c-45ac-8990-22020e91ef29"
     ],
     "tutorial": ""
 }

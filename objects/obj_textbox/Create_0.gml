@@ -26,13 +26,17 @@ name_text_y = namebox_y + (namebox_height / 2);
 text_max_width = box_width - (2 * x_buffer);
 
 portrait_index = 0;
+counter = 0;
+pause = false;
 
-text[0] = "this is a test string this is a test string this is a test string this is a test string this is a test string this is a test string this is a test string this is a test string ";
-text[1] = "This is the second page";
+voice = snd_voice1; 
+
+text[0] = "Silas, you must go to the Post Depo to collect a new prosthetic!";
+text[1] = "Please be careful, be sure to avoid the cave on the way...";
 page = 0;
 name = "name"
 
-interact_key = ord("E");
+interact_key = ord("E"); 
 
 text_col = c_black;
 name_text_col = c_black;
@@ -40,3 +44,5 @@ font = fnt_text_12;
 
 draw_set_font(font);
 text_height = string_height("M");
+
+event_perform(ev_other, ev_user1);
