@@ -1,11 +1,13 @@
 //-------UPDATE INPUT
 if (global.show_inventory) exit;
-var input_left = keyboard_check(ord("A"));
-var input_right = keyboard_check(ord("D"));
-var input_up = keyboard_check(ord("W"));
-var input_down = keyboard_check(ord("S"));
-var input_walk = keyboard_check(vk_control);
-var input_run = keyboard_check(vk_shift);
+input_left = keyboard_check(ord("A"));
+input_right = keyboard_check(ord("D"));
+input_up = keyboard_check(ord("W"));
+input_down = keyboard_check(ord("S"));
+input_walk = keyboard_check(vk_control);
+input_run = keyboard_check(vk_shift);
+input_interact = keyboard_check_pressed(ord("E"));
+
 
 //ALTER SPEED
 if (input_walk or input_run) {
@@ -73,6 +75,30 @@ if (inst != noone && facing == inst.playerFacingBefore) {
 			spawnY = inst.targetY;
 			spawnPlayerFacing = inst.playerFacingAfter;
 			doTransition = true;
+		}
+	}
+}
+
+//Textbox
+if(input_interact) {
+	
+	if (active_textbox == noone) {
+		var inst = collision_rectangle(x-radius, y-radius, x+radius, y+radius, par_NPC, false, false);
+	
+		if (inst != noone) {
+			with(inst) {
+				var tbox = create_textbox(text, speakers);
+				can_move = false;
+				moveX = 0;
+				moveY = 0;
+				idle = true;
+			}
+			active_textbox = tbox;
+	
+		}
+	} else {
+		if(!instance_exists(active_textbox)) {
+			active_textbox = noone;
 		}
 	}
 }

@@ -45,4 +45,3 @@ font = fnt_text_12;
 draw_set_font(font);
 text_height = string_height("M");
 
-event_perform(ev_other, ev_user1);

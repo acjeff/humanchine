@@ -23,5 +23,12 @@ spr_shadow = spr_character_shadow;
 
 moveX = 0;
 moveY = 0;
+can_move = true;
 
 alarm[1] = 1;
+
+portrait_index = 0;
+voice = snd_voice1;
+name = "Anonymous";
+text = ["This person has nothing to say."];
+speakers = [id];

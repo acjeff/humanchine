@@ -742,6 +742,25 @@
             }
         },
         {
+            "Key": "47ec0c5d-eecf-43d5-b711-264c8e6f69d9",
+            "Value": {
+                "id": "63df1d1b-64ee-47b5-b54e-97fb4d802fbd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/create_textbox\/create_textbox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4884ac76-c4e5-4d52-a466-2325a137b1f9",
             "Value": {
                 "id": "010f6480-3369-41f7-86b5-8ea1a8bda5f8",
@@ -2438,7 +2457,8 @@
         "298f3228-bf11-49ec-8df6-c71b9918530d",
         "032ce34c-1c07-4e2a-8292-9495de475a93",
         "11e07920-a0db-4f48-8b82-96534ec0d2ed",
-        "037ec06d-2b1c-45ac-8990-22020e91ef29"
+        "037ec06d-2b1c-45ac-8990-22020e91ef29",
+        "47ec0c5d-eecf-43d5-b711-264c8e6f69d9"
     ],
     "tutorial": ""
 }

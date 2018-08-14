@@ -22,3 +22,10 @@ spr_base = spr_silas_walking_up;
 spr_shadow = spr_character_shadow;
 
 facing = 0;
+
+portrait_index = 2;
+voice = snd_voice1;
+name = "Player";
+
+radius = 32;
+active_textbox = noone;
