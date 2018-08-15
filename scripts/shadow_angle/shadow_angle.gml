@@ -84,17 +84,20 @@ var opacity = abs(angle_in_radians);
 
 
 //sunrise
-if (global.timeOfDay = "sunrise") global.shadowOpacity += 0.001;
+if (global.timeOfDay = "sunrise") global.shadowOpacity += 0.005;
 
 //day
-else if (global.timeOfDay = "day") global.shadowOpacity = amount_to_increment
+//else if (global.timeOfDay = "daytime") global.shadowOpacity = global.shadowOpacity;
 
 //sunset
 
-else if (global.timeOfDay = "sunset") global.shadowOpacity -= 0.001;
+else if (global.timeOfDay = "sunset") global.shadowOpacity -= 0.005;
 
 
-else if (global.timeOfDay = "nighttime") global.shadowOpacity = 0.1;
+else if (global.timeOfDay = "nighttime") global.shadowOpacity = 0;
+
+if (global.shadowOpacity > 0.14) global.shadowOpacity = 0.14;
+else if (global.shadowOpacity < 0) global.shadowOpacity = 0;
 
 
 if (global.timeOfDay != "nighttime") {

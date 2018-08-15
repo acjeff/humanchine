@@ -31,17 +31,10 @@ if ((x_frame + (anim_speed / 60) < anim_length) and facing != -1) x_frame += ani
 else if ((x_frame + (anim_speed / 60) == anim_length) and facing != -1) x_frame = 1
 else x_frame = 0;
 
-//var player_shadow_angle = shadow_angle();
-
-//show_debug_message(player_shadow_angle);
-
+//Draw Character shadow
 shadow_angle(spr_base, floor(x_frame));
-
-//draw_sprite_ext(spr_base, floor(x_frame), x , y, image_xscale, image_yscale, player_shadow_angle, c_black, 0.5);
-
-//draw_sprite_pos(spr_base, floor(x_frame)
 
 //DRAW CHARACTER BASE
 draw_sprite_ext(spr_base, floor(x_frame), x, y, image_xscale, image_yscale, 0, c_white, 1);
-//if (spr_base) draw_sprite_part(spr_base, 0, floor(x_frame) * frame_size, 0, frame_size, frame_size, xx, yy);
+
 
