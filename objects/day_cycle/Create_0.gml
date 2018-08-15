@@ -2,9 +2,13 @@ seconds = 0
 minutes = 0;
 hours = 0;
 
-day = 1;
-season = 1;
-year = 2018;
+global.day = 1;
+global.season = 1;
+global.year = 2018;
+
+day = global.day;
+season = global.season;
+year = global.year;
 
 time_increment = 100 //seconds per step
 time_pause = true;

@@ -4,10 +4,10 @@
     "mvc": "1.1",
     "name": "74430520-13b4-4458-becf-3b23779fffda",
     "children": [
-        "93313640-c0c1-47ba-8071-93d40696bf1d",
-        "85f66a9b-9e06-47bc-be7e-c06ba0beae3a",
-        "9d306efa-48be-44b0-a1c9-304b9e47fb2c",
-        "64264580-3661-4017-aada-45c666c4de83"
+        "59ad3043-c6df-4b19-acf7-0c481aded664",
+        "01c5dfd5-8ada-4c2f-a403-f499b481cd83",
+        "03f7e2e6-f9e5-48e6-955c-96215310badd",
+        "1ece99d9-da21-4a96-bdbf-3c6ae21cdd7c"
     ],
     "filterType": "GMSprite",
     "folderName": "Silas",

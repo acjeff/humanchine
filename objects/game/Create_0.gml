@@ -1,7 +1,9 @@
 /// @description 
+global.debug = false;
 randomize();
 room_goto_next();
-debug = false;
+
+global.shadowOpacity = 0;
 
 blackAlpha = 0;
 
@@ -17,6 +19,15 @@ enum dir {
 	left = 180,
 	down = 270
 }
+
+global.timeOfDay = "daytime";
+global.seconds = 0;
+global.hours = 0;
+global.minutes = 0;
+
+global.day = 0;
+global.season = 0;
+global.year = 0;
 
 global.game_width = 750;
 global.game_height = 420;

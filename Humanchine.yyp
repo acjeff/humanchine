@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "01c5dfd5-8ada-4c2f-a403-f499b481cd83",
+            "Value": {
+                "id": "e3ff5fed-9e66-444a-8abf-56b66d948756",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_silas_walking_down\/spr_silas_walking_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "032ce34c-1c07-4e2a-8292-9495de475a93",
             "Value": {
                 "id": "982d4975-a621-4510-a91b-8ec9093296a2",
@@ -74,6 +93,25 @@
                 ],
                 "resourcePath": "scripts\/string_wrap\/string_wrap.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "03f7e2e6-f9e5-48e6-955c-96215310badd",
+            "Value": {
+                "id": "c7950009-aa88-4897-8983-752f4ec6398c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_silas_walking_left\/spr_silas_walking_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -552,6 +590,25 @@
             }
         },
         {
+            "Key": "1ece99d9-da21-4a96-bdbf-3c6ae21cdd7c",
+            "Value": {
+                "id": "a6def96a-0a65-4f91-beab-00c14e0a1e8e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_silas_walking_right\/spr_silas_walking_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1f921a7a-4adf-4ab5-82f5-d76801bec2f8",
             "Value": {
                 "id": "b47f734f-0589-43ec-8446-0c3bd3cc5ff6",
@@ -663,6 +720,25 @@
                 ],
                 "resourcePath": "sprites\/sprite44\/sprite44.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32de3c4a-83b2-4e92-823e-26b9b90249e7",
+            "Value": {
+                "id": "732e031c-e7d2-47bc-a5b7-704f1360cc28",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/shadow_angle\/shadow_angle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -913,6 +989,25 @@
             }
         },
         {
+            "Key": "59ad3043-c6df-4b19-acf7-0c481aded664",
+            "Value": {
+                "id": "34e9dc16-a5e1-4739-a9de-7103a2179f40",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_silas_walking_up\/spr_silas_walking_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a3d6659-04d6-4bef-a5bf-ae60cf861809",
             "Value": {
                 "id": "4f682160-62f9-4cc3-90a2-2cb62824f468",
@@ -947,25 +1042,6 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_base_female_1\/spr_base_female_1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "64264580-3661-4017-aada-45c666c4de83",
-            "Value": {
-                "id": "bedd30d8-845c-4778-9792-b1b2f8da698a",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_silas_walking_left\/spr_silas_walking_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1407,25 +1483,6 @@
             }
         },
         {
-            "Key": "85f66a9b-9e06-47bc-be7e-c06ba0beae3a",
-            "Value": {
-                "id": "b27b03e0-3298-4286-aa48-de89d5fa20b2",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_silas_walking_down\/spr_silas_walking_down.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "863928f3-b4d4-4e73-80d7-f7ca473fdf5c",
             "Value": {
                 "id": "2ef7a3e2-eb5a-4245-9d2b-d338a6dc6349",
@@ -1521,25 +1578,6 @@
             }
         },
         {
-            "Key": "93313640-c0c1-47ba-8071-93d40696bf1d",
-            "Value": {
-                "id": "f34d4a6a-9674-4006-b6ac-0484f120d31c",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_silas_walking_up\/spr_silas_walking_up.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "95b21b94-14b0-431b-aba8-03d4a1562fa2",
             "Value": {
                 "id": "497337c7-5b39-4fdc-8e00-9f1873e9a733",
@@ -1556,6 +1594,25 @@
                 ],
                 "resourcePath": "tilesets\/tile_interior\/tile_interior.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "96e3362c-9ea4-418f-919c-3ed6af028029",
+            "Value": {
+                "id": "4da7b146-39ae-4198-bdc7-c5d12df30706",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/point_on_circle\/point_on_circle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1669,25 +1726,6 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_base_female_4\/spr_base_female_4.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9d306efa-48be-44b0-a1c9-304b9e47fb2c",
-            "Value": {
-                "id": "5f7b0a2a-26ce-48a7-aab5-016ee57a18a6",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "sprites\/spr_silas_walking_right\/spr_silas_walking_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2458,7 +2496,9 @@
         "032ce34c-1c07-4e2a-8292-9495de475a93",
         "11e07920-a0db-4f48-8b82-96534ec0d2ed",
         "037ec06d-2b1c-45ac-8990-22020e91ef29",
-        "47ec0c5d-eecf-43d5-b711-264c8e6f69d9"
+        "47ec0c5d-eecf-43d5-b711-264c8e6f69d9",
+        "32de3c4a-83b2-4e92-823e-26b9b90249e7",
+        "96e3362c-9ea4-418f-919c-3ed6af028029"
     ],
     "tutorial": ""
 }
