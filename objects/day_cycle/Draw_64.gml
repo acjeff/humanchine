@@ -5,9 +5,9 @@ if (draw_daylight) {
 	draw_set_alpha(1);
 }
 	var c = c_yellow;
-	draw_text_color(10, 10, "Seconds: " + string(seconds), c, c, c, c, 1);
-	draw_text_color(10, 30, "Minutes: " + string(minutes), c, c, c, c, 1);
-	draw_text_color(10, 50, "Hours: " + string(hours), c, c, c, c, 1);
-	draw_text_color(10, 70, "Day: " + string(day), c, c, c, c, 1);
-	draw_text_color(10, 90, "Season: " + string(season), c, c, c, c, 1);
-	draw_text_color(10, 110, "Year: " + string(year), c, c, c, c, 1);
+	draw_text_color(10, 10, "Seconds: " + string(global.seconds), c, c, c, c, 1);
+	draw_text_color(10, 30, "Minutes: " + string(global.minutes), c, c, c, c, 1);
+	draw_text_color(10, 50, "Hours: " + string(global.hours), c, c, c, c, 1);
+	draw_text_color(10, 70, "Day: " + string(global.day), c, c, c, c, 1);
+	draw_text_color(10, 90, "Season: " + string(global.season), c, c, c, c, 1);
+	draw_text_color(10, 110, "Year: " + string(global.year), c, c, c, c, 1);
