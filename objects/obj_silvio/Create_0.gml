@@ -10,6 +10,6 @@ spr_hair = spr_hair_male_bedhead_pink;
 
 portrait_index = 3;
 voice = snd_voice4;
-name = "Silvo";
-text = ["Hello there, Names Silvio.", "Nice day for farming, hmm?"];
-speakers = [id, id];
+name = "Dr. McCoy";
+text = ["Hey Silas, just got an email saying that your new arm just arrived! Exciting stuff! Why don't you head down to the depot to collect it.", "Be careful though, I've been hearing things about stray dogs in the area, best to take your brother with you just to make sure...", "Sure thing! Doubt he'll come though, haven't seem him leave his bunker for days!"];
+speakers = [id, id, obj_player];
