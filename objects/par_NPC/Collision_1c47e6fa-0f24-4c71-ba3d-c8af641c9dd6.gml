@@ -1,6 +1,4 @@
 /// @description 
-show_debug_message("Walked into object");
-
 
 if (!collidable) exit;
 

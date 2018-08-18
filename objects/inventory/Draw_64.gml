@@ -91,9 +91,7 @@ repeat(inv_slots) {
 
 //Draw item description
 var iinfo_grid = ds_items_info, description = "";
-show_debug_message(string(selected_slot) + " Selected slot");
 iitem = inv_grid[# 0, selected_slot];
-show_debug_message(iitem);
 if (iitem > 0) {
 	draw_set_font(fnt_text_12);
 	description = iinfo_grid[# 0, iitem] + ". " + iinfo_grid[# 1, iitem];

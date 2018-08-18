@@ -5,19 +5,19 @@ var anim_speed = 8;
 
 if (moveX < 0) {
 	anim_length = 8;
-	spr_base = spr_silas_walking_left;
+	spr_base = spr_walk_left;
 }
 else if (moveX > 0) {
 	anim_length = 8;
-	spr_base = spr_silas_walking_right;
+	spr_base = spr_walk_right;
 }
 else if (moveY > 0) {
 	anim_length = 8;
-	spr_base = spr_silas_walking_down;
+	spr_base = spr_walk_down;
 }
 else if (moveY < 0) {
 	anim_length = 4;
-	spr_base = spr_silas_walking_up;
+	spr_base = spr_walk_up;
 }
 
 var xx = x - x_offset;

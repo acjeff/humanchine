@@ -21,6 +21,11 @@ y_offset = sprite_get_yoffset(mask_index);
 spr_base = -1;
 spr_shadow = spr_character_shadow;
 
+spr_walk_left = spr_silas_walking_left;
+spr_walk_right = spr_silas_walking_right;
+spr_walk_up = spr_silas_walking_up;
+spr_walk_down = spr_silas_walking_down;
+
 moveX = 0;
 moveY = 0;
 can_move = true;

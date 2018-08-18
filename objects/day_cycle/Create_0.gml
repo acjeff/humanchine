@@ -1,4 +1,4 @@
-seconds = 0
+seconds = 25200
 minutes = 0;
 hours = 0;
 

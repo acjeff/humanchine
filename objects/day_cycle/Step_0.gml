@@ -64,7 +64,6 @@ if (draw_daylight) {
 
 
 #region Cycle Check
-show_debug_message(string(global.hours));
 if(global.hours = 24) {
 	global.seconds = 0;
 	global.day += 1;

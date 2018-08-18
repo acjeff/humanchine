@@ -1,2 +1,9 @@
 layer_add_instance("Instances", id);
-layer_add_instance("Trees", id);
+if (global.outdoors) {
+	show_debug_message("Outdoors");
+	layer_add_instance("Trees", id);
+	layer_add_instance("Buildings", id);
+}
+else {
+	show_debug_message("Indoors");
+}

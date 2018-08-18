@@ -92,6 +92,17 @@ if(input_interact) {
 				moveX = 0;
 				moveY = 0;
 				idle = true;
+				
+				if (abs(x - obj_player.x) > abs(y - obj_player.y)) {
+					if (obj_player.x > x) spr_base = spr_walk_right;
+					else if (obj_player.x < x) spr_base = spr_walk_left;
+				}
+				else if (abs(y - obj_player.y) > abs(x - obj_player.x)) { 
+					if (obj_player.y > y) spr_base = spr_walk_down;
+					else if (obj_player.y < y) spr_base = spr_walk_up;
+				}
+				
+				
 			}
 			active_textbox = tbox;
 	

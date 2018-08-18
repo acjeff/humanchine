@@ -4,8 +4,8 @@ var tree_to_render;
 show_debug_message(string(tree_sprite) + " = tree_sprite")
 
 if (tree_sprite == pink_block) {
-	var tree_index = irandom(7);
-	show_debug_message(string(tree_index) + " = tree_index")
+	var tree_index = irandom(6);
+
 	switch(tree_index) {
 		case 0: 
 		tree_to_render = spr_tree_tall_pine_1;
@@ -27,12 +27,7 @@ if (tree_sprite == pink_block) {
 		break;
 		case 6: 
 		tree_to_render = spr_tree_tall_pine_7;
-		break;
-		case 7: 
-		tree_to_render = spr_tree_short_pine_1;
-		break;
 	}
-	show_debug_message(string(tree_to_render) + " = tree_to_render");
 	tree_sprite = tree_to_render;
 	mask_index = tree_to_render;
 }

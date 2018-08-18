@@ -1,10 +1,6 @@
-/// @description
-show_debug_message("Run random walk alarm");
-
 if (can_move) {
 
 	if (hitWall == 0) {
-		show_debug_message("Move NPC in random direction");
 		moveX = 0;
 		moveY = 0;
 		idle = choose(0,1);
@@ -20,10 +16,6 @@ if (can_move) {
 	}
 	else {
 		hitWall = 0;
-		show_debug_message("hit wall so move away from it");
-		show_debug_message(string(moveX) + " move x");
-		show_debug_message(string(moveY) + " move y");
-	
 		var dir;
 	
 		if(moveX < 0) dir = choose(2, 3, 4, 5);

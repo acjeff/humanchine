@@ -2,7 +2,7 @@
 {
     "name": "rm_farm_house",
     "id": "0af74fe9-bcf8-4662-a6fa-1e25062ab155",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

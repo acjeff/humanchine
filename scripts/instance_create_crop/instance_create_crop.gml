@@ -9,8 +9,6 @@ var gy = argument1 div cs;
 var i_grid = crops.ds_crops_instances;
 var cell = i_grid[# gx, gy];
 
-show_debug_message(cell);
-
 if (cell == 0) {
 
 	xx = gx * cs;

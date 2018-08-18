@@ -21,10 +21,6 @@ var angle_in_radians2 = (degree_of_shadow + 30) * (pi / 180);
 var angle_in_radians3 = (degree_of_shadow - 90) * (pi / 180);
 var angle_in_radians4 = (degree_of_shadow + 90) * (pi / 180);
 
-//show_debug_message(pi);
-//show_debug_message(degree_of_shadow);
-//show_debug_message(angle_in_radians);
-
 var spriteWidth = sprite_get_width(argument0);
 var spriteHeight = sprite_get_height(argument0);
 var offsetW = spriteWidth / 2; 
@@ -76,28 +72,30 @@ var opacity = abs(angle_in_radians);
 
 
 //sunrise
-if (global.timeOfDay = "sunrise") global.shadowOpacity += 0.005;
+if (global.timeOfDay == "sunrise") global.shadowOpacity += 0.005;
 
 //day
-//else if (global.timeOfDay = "daytime") global.shadowOpacity = global.shadowOpacity;
+else if (global.timeOfDay == "daytime") global.shadowOpacity = global.shadowOpacity;
 
 //sunset
 
-else if (global.timeOfDay = "sunset") global.shadowOpacity -= 0.005;
+else if (global.timeOfDay == "sunset") global.shadowOpacity -= 0.005;
 
 
-//else if (global.timeOfDay = "nighttime") global.shadowOpacity = 0;
+else if (global.timeOfDay == "nighttime") global.shadowOpacity = 0;
 
 if (global.shadowOpacity > 0.14) global.shadowOpacity = 0.14;
 else if (global.shadowOpacity < 0) global.shadowOpacity = 0;
 
 
-if (global.timeOfDay != "nighttime") {
+if (global.timeOfDay != "nighttime" and global.outdoors) {
 	gpu_set_fog(true, c_black, 0, 1);
 	var shadow = draw_sprite_pos(argument0, argument1, x1, y1, x2, y2, x3, y3, x4, y4, global.shadowOpacity);
 	gpu_set_fog(false, c_white, 0, 0);
 	return shadow;
 }
+else if (global.outdoors) return "No shadows indoors"
+else if (global.timeOfDay == "nighttime") return "No shadows at night"
 
 
 

@@ -21,7 +21,7 @@ enum dir {
 }
 
 global.timeOfDay = "daytime";
-global.seconds = 0;
+global.seconds = 25200;
 global.hours = 0;
 global.minutes = 0;
 
