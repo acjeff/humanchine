@@ -10,7 +10,7 @@ day = global.day;
 season = global.season;
 year = global.year;
 
-time_increment = 100 //seconds per step
+time_increment = 1 //seconds per step
 time_pause = true;
 
 max_darkness = 0.7;

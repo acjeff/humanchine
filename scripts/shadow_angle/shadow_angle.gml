@@ -33,27 +33,19 @@ var offsetH = spriteHeight / 2;
 
 var org_x = x - (spriteWidth / 2);
 var org_y = y - spriteHeight;
+var length_of_shadow = spriteHeight * 0.5
 
 
 if (angle_in_radians < -3.14) angle_in_radians = -3.14;
-var x1 = (point_on_circle("x", x, angle_in_radians, spriteHeight));
-var y1 = (point_on_circle("y", y, angle_in_radians, spriteHeight));
+var x1 = (point_on_circle("x", x, angle_in_radians, length_of_shadow));
+var y1 = (point_on_circle("y", y, angle_in_radians, length_of_shadow));
 
 if (angle_in_radians2 > 0) angle_in_radians2 = 0;
-var x2 = (point_on_circle("x", x, angle_in_radians2, spriteHeight));
-var y2 = (point_on_circle("y", y, angle_in_radians2, spriteHeight));
-
-//if (angle_in_radians4 > -0.2) angle_in_radians4 = -0.2;
-//var x3 = (point_on_circle("x", x, angle_in_radians4, spriteWidth / 2));
-//var y3 = (point_on_circle("y", y, angle_in_radians4, spriteWidth / 2));
+var x2 = (point_on_circle("x", x, angle_in_radians2, length_of_shadow));
+var y2 = (point_on_circle("y", y, angle_in_radians2, length_of_shadow));
 
 var x3 = x + (spriteWidth / 2);
 var y3 = y;
-
-
-//if (angle_in_radians3 < -3.35) angle_in_radians3 = -3.41;
-//var x4 = (point_on_circle("x", x , angle_in_radians3, spriteWidth / 2));
-//var y4 = (point_on_circle("y", y, angle_in_radians3, spriteWidth / 2));
 
 var x4 = x - (spriteWidth / 2);
 var y4 = y;
@@ -94,7 +86,7 @@ if (global.timeOfDay = "sunrise") global.shadowOpacity += 0.005;
 else if (global.timeOfDay = "sunset") global.shadowOpacity -= 0.005;
 
 
-else if (global.timeOfDay = "nighttime") global.shadowOpacity = 0;
+//else if (global.timeOfDay = "nighttime") global.shadowOpacity = 0;
 
 if (global.shadowOpacity > 0.14) global.shadowOpacity = 0.14;
 else if (global.shadowOpacity < 0) global.shadowOpacity = 0;

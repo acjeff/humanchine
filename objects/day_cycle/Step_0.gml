@@ -1,5 +1,5 @@
-if (keyboard_check_pressed(ord("T"))) { time_pause = !time_pause}
-if (time_pause) exit;
+//if (keyboard_check_pressed(ord("T"))) { time_pause = !time_pause}
+//if (time_pause) exit;
 
 //Increment time
 global.seconds += time_increment;
