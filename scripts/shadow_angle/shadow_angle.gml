@@ -90,9 +90,9 @@ else if (global.shadowOpacity < 0) global.shadowOpacity = 0;
 
 if (global.timeOfDay != "nighttime" and global.outdoors) {
 	gpu_set_fog(true, c_black, 0, 1);
-	var shadow = draw_sprite_pos(argument0, argument1, x1, y1, x2, y2, x3, y3, x4, y4, global.shadowOpacity);
+	var shadow = draw_sprite_pos(argument0, argument1, x1, y1, x2, y2, x3, y3, x4, y4, 0);
 	gpu_set_fog(false, c_white, 0, 0);
-	return shadow;
+	return "nada";
 }
 else if (global.outdoors) return "No shadows indoors"
 else if (global.timeOfDay == "nighttime") return "No shadows at night"

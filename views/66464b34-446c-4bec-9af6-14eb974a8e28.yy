@@ -10,7 +10,9 @@
         "79d364a2-5d9a-4214-ad18-2d59fa6bb266",
         "6150212a-5a78-4ca2-8b07-f47a02a5475e",
         "2c5a3ed5-9b35-4dd3-9051-d0b9798f64b8",
-        "c157f62d-5f53-44ac-b41d-82c808039221"
+        "c157f62d-5f53-44ac-b41d-82c808039221",
+        "397878b4-48e6-447b-ae24-d011de28057f",
+        "b9d9c447-5d92-4e62-8a8e-40acfb202a9d"
     ],
     "filterType": "GMObject",
     "folderName": "Beings",

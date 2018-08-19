@@ -17,9 +17,12 @@ ds_grid_sort(dgrid, 1, true);
 var inst; yy = 0; repeat(inst_num) {
 	//Pull out ID
 	inst = dgrid[# 0, yy];
-	//Draw yourself
-	with(inst) {
-		event_perform(ev_draw, 0);
-	}
+	
+		//Draw yourself
+		with(inst) {
+			event_perform(ev_draw, 0);
+		}
+	
+	
 	yy += 1;
 }
