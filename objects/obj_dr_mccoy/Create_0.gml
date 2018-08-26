@@ -9,6 +9,11 @@ spr_walk_right = spr_dr_mccoy_walking_right;
 
 spr_base = spr_walk_down;
 
+left_length = 7;
+right_length = 7;
+down_length = 5;
+up_length = 5;
+
 portrait_index = 3;
 voice = snd_voice4;
 name = "Dr. McCoy";

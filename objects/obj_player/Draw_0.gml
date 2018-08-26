@@ -1,23 +1,22 @@
 /// @description
-var anim_length = 9;
 var frame_size = 128;
 var anim_speed = 8;
 
 switch(facing) {
 	case dir.left: {
-		anim_length = 8;
+		anim_length = left_length;
 		spr_base = spr_walk_left;
 		} break;
 	case dir.right: {
-		anim_length = 8;
+		anim_length = right_length;
 		spr_base = spr_walk_right;
 		} break;
 	case dir.down: {
-		anim_length = 8;
+		anim_length = down_length;
 		spr_base = spr_walk_down;
 		} break;
 	case dir.up: {
-		anim_length = 4;
+		anim_length = up_length;
 		spr_base = spr_walk_up;
 		} break;
 	case -1: break;
