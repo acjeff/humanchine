@@ -27,7 +27,7 @@ var yy = y - y_offset;
 
 //INCREMENT FRAME FOR ANIMATION
 if ((x_frame + (anim_speed / 60) < anim_length) and facing != -1) x_frame += anim_speed / 60
-else if ((x_frame + (anim_speed / 60) == anim_length) and facing != -1) x_frame = 1
+else if ((x_frame + (anim_speed / 60) >= anim_length) and facing != -1) x_frame = 1
 else x_frame = 0;
 
 //Draw Character shadow

@@ -14,7 +14,14 @@
         "31f88452-59bb-40b1-a711-48afd28508e4",
         "24439a06-0d25-4aa4-b24b-56d96e943d8d",
         "4281c5d2-96cb-412e-986f-876c25ee70ce",
-        "5c75cd97-1513-4dea-86fb-58324fd3adb3"
+        "5c75cd97-1513-4dea-86fb-58324fd3adb3",
+        "5c1adf19-429c-42c3-abc0-dd01f0fea32f",
+        "a3b05582-6084-453d-9c10-cf01160ee949",
+        "74cd20d8-1814-451c-aeba-bf5c13a062e5",
+        "71405838-6bea-49f2-b0c2-7a0e61541e24",
+        "c85e4b43-18ab-409e-95e5-86b27a4f6abf",
+        "cd9cd0ee-b0f6-4049-8641-50909b64edb7",
+        "dd2a7179-4fd6-4c7b-9b5e-713fe85e408e"
     ],
     "filterType": "GMSprite",
     "folderName": "Objects",

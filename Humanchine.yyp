@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "11fbeb4a-d7c9-4cdd-b46b-e1135cda23b9",
+            "Value": {
+                "id": "7b237006-4560-4d61-9b32-a6ce07f5f8c2",
+                "resourcePath": "objects\\obj_bui_fm_obj_bookcase_ladder\\obj_bui_fm_obj_bookcase_ladder.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13130408-d6e4-43b4-adb2-d791fe5ae350",
             "Value": {
                 "id": "17985b87-11ac-45fe-8cfa-1b10daea82a7",
@@ -459,6 +467,14 @@
             "Value": {
                 "id": "f8c6c294-9bfc-4a7d-9b06-3653c64bddfc",
                 "resourcePath": "objects\\obj_bui_fm_obj_kitchenette\\obj_bui_fm_obj_kitchenette.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "31884170-7f30-458e-8916-f07a3610405a",
+            "Value": {
+                "id": "c71ee5f5-cbbc-4f2a-8ce7-9498163f41df",
+                "resourcePath": "objects\\obj_bui_fm_obj_3dprinter_1\\obj_bui_fm_obj_3dprinter_1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -783,6 +799,14 @@
             }
         },
         {
+            "Key": "5c1adf19-429c-42c3-abc0-dd01f0fea32f",
+            "Value": {
+                "id": "55de4aaa-f0d6-4b1c-b326-53660f2c5928",
+                "resourcePath": "sprites\\spr_bui_fm_obj_keyboard\\spr_bui_fm_obj_keyboard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c75cd97-1513-4dea-86fb-58324fd3adb3",
             "Value": {
                 "id": "4ac8eda2-a328-405d-9ed5-5b4cb59deb0e",
@@ -919,6 +943,14 @@
             }
         },
         {
+            "Key": "71405838-6bea-49f2-b0c2-7a0e61541e24",
+            "Value": {
+                "id": "f9295e6b-c7d8-4861-a1ad-b5b717efbf9c",
+                "resourcePath": "sprites\\spr_bui_fm_obj_3dprinter_1\\spr_bui_fm_obj_3dprinter_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "71f908c6-dd5d-4b62-b142-9faaf040d9ca",
             "Value": {
                 "id": "66553d82-7391-4598-95c5-bcc5688f139c",
@@ -948,6 +980,14 @@
                 "id": "9361e6a3-955d-40bb-a90a-6fcceade3156",
                 "resourcePath": "views\/74430520-13b4-4458-becf-3b23779fffda.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "74cd20d8-1814-451c-aeba-bf5c13a062e5",
+            "Value": {
+                "id": "429035bc-45c9-4ffa-95cd-cbf3382a6a1e",
+                "resourcePath": "sprites\\spr_bui_fm_obj_mouse\\spr_bui_fm_obj_mouse.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1143,6 +1183,14 @@
             }
         },
         {
+            "Key": "889f7bf8-ee45-482e-9673-ab44652778d6",
+            "Value": {
+                "id": "1c94d21b-6f21-4c5e-9d1f-d4fdde13a57c",
+                "resourcePath": "objects\\obj_bui_fm_obj_3dprinter_2\\obj_bui_fm_obj_3dprinter_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "898ff7b2-39cd-4b55-923e-c5f51395953e",
             "Value": {
                 "id": "de8fa6bc-1760-4f37-9dfa-59fae11b28d9",
@@ -1279,6 +1327,14 @@
             }
         },
         {
+            "Key": "a3b05582-6084-453d-9c10-cf01160ee949",
+            "Value": {
+                "id": "9f2dec0c-45e9-40e0-bee1-a92302a78e29",
+                "resourcePath": "sprites\\spr_bui_fm_obj_mousepad\\spr_bui_fm_obj_mousepad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a3d5c7fb-e638-4062-a60a-60dd2176f699",
             "Value": {
                 "id": "98eb0e1a-757d-4f4b-87f9-6f1580f95eb3",
@@ -1391,6 +1447,14 @@
             }
         },
         {
+            "Key": "b18cbf21-288e-47b1-8d4c-173d1a50d4d7",
+            "Value": {
+                "id": "53e148ef-5169-4b44-a40d-d178daf1764d",
+                "resourcePath": "objects\\obj_bui_fm_obj_mousepad\\obj_bui_fm_obj_mousepad.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b1b9e406-e86d-46cb-aa99-e068d75d8cf2",
             "Value": {
                 "id": "18c0c15c-e790-4b74-935a-4ee3c18af629",
@@ -1476,6 +1540,14 @@
                 "id": "415fb0c0-70ac-4f62-a89f-1ae8054b8368",
                 "resourcePath": "sprites\/spr_portraits\/spr_portraits.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bcd4f901-a7cb-4d5d-a238-1bbbde8bd35a",
+            "Value": {
+                "id": "5a889b55-c4c6-4bc4-869b-5bd17880d196",
+                "resourcePath": "objects\\obj_bui_fm_obj_3dprinter_3\\obj_bui_fm_obj_3dprinter_3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1567,6 +1639,14 @@
             }
         },
         {
+            "Key": "c2d42d12-738c-442b-b1c5-7fb29739f01f",
+            "Value": {
+                "id": "a9f443a6-8fed-4af9-ab8e-64ad87f3b7f8",
+                "resourcePath": "objects\\obj_bui_fm_obj_keyboard\\obj_bui_fm_obj_keyboard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c7bce1b8-30ff-446b-94ca-182ebf2d22a3",
             "Value": {
                 "id": "23d411e5-0714-4d42-83a9-73caff22a910",
@@ -1580,6 +1660,14 @@
                 "id": "92aa127d-ce6a-4739-bfe9-2b3c22258655",
                 "resourcePath": "views\\c7d11f7b-e487-4c4f-b95e-db9c3623bb6b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c85e4b43-18ab-409e-95e5-86b27a4f6abf",
+            "Value": {
+                "id": "04136e16-4e8b-4d3f-8e26-7bf58b6f6951",
+                "resourcePath": "sprites\\spr_bui_fm_obj_3dprinter_3\\spr_bui_fm_obj_3dprinter_3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1620,6 +1708,14 @@
                 "id": "3320318d-d37a-47de-805f-df7545bfae9f",
                 "resourcePath": "views\/cd60d73e-ce0e-4f4e-8c2b-948d1ff8b93f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cd9cd0ee-b0f6-4049-8641-50909b64edb7",
+            "Value": {
+                "id": "cbd2865e-03b8-4b8e-b010-a8f8f50d90cc",
+                "resourcePath": "sprites\\spr_bui_fm_obj_3dprinter_2\\spr_bui_fm_obj_3dprinter_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1732,6 +1828,14 @@
                 "id": "1c4b4186-34c4-4f7d-9a3e-26d9f169ff2e",
                 "resourcePath": "objects\/obj_main_house\/obj_main_house.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dd2a7179-4fd6-4c7b-9b5e-713fe85e408e",
+            "Value": {
+                "id": "47c1be3c-0216-4091-91a1-0777857a4154",
+                "resourcePath": "sprites\\spr_bui_fm_obj_bookcase_ladder\\spr_bui_fm_obj_bookcase_ladder.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1868,6 +1972,14 @@
                 "id": "1bfe59fe-043f-4760-a20f-522506098eda",
                 "resourcePath": "views\\ec0db77f-6103-489d-a1aa-7f9fedd8ba09.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ef64963a-ba39-431a-8033-2f46f18be2ac",
+            "Value": {
+                "id": "aa9470f2-3306-4377-bedd-a41bdffd2cb6",
+                "resourcePath": "objects\\obj_bui_fm_obj_mouse\\obj_bui_fm_obj_mouse.yy",
+                "resourceType": "GMObject"
             }
         },
         {
