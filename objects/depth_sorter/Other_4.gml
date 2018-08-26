@@ -6,4 +6,5 @@ if (global.outdoors) {
 }
 else {
 	show_debug_message("Indoors");
+	layer_add_instance("Objects", id);
 }

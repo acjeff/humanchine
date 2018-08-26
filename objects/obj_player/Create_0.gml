@@ -14,11 +14,12 @@ y_frame = 0;
 x_offset = sprite_get_xoffset(mask_index);
 y_offset = sprite_get_yoffset(mask_index);
 
-spr_base = spr_silas_walking_up;
-//spr_feet = spr_feet_male_boots_black;
-//spr_legs = spr_legs_male_pants_green;
-//spr_torso = spr_torso_male_shirt_white;
-//spr_hair = spr_hair_male_bedhead_pink;
+spr_walk_up = spr_silas_walking_up;
+spr_walk_down = spr_silas_walking_down;
+spr_walk_left = spr_silas_walking_left;
+spr_walk_right = spr_silas_walking_right;
+spr_base = spr_walk_down;
+
 spr_shadow = spr_character_shadow;
 
 facing = 0;

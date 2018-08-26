@@ -11,7 +11,8 @@
         "bf872e59-9565-41fe-a334-1e5694699f89",
         "e5866064-a401-4bbe-9581-18d8d720c2fa",
         "3334b5b5-f02b-4ac5-9653-ca43275a90e2",
-        "6d9335d9-d777-42eb-9090-25c50a79945e"
+        "6d9335d9-d777-42eb-9090-25c50a79945e",
+        "0839d847-5c86-4e6d-a290-b58ffe4d27db"
     ],
     "filterType": "GMSprite",
     "folderName": "Land Masses",

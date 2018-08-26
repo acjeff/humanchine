@@ -6,19 +6,19 @@ var anim_speed = 8;
 switch(facing) {
 	case dir.left: {
 		anim_length = 8;
-		spr_base = spr_silas_walking_left;
+		spr_base = spr_walk_left;
 		} break;
 	case dir.right: {
 		anim_length = 8;
-		spr_base = spr_silas_walking_right;
+		spr_base = spr_walk_right;
 		} break;
 	case dir.down: {
 		anim_length = 8;
-		spr_base = spr_silas_walking_down;
+		spr_base = spr_walk_down;
 		} break;
 	case dir.up: {
 		anim_length = 4;
-		spr_base = spr_silas_walking_up;
+		spr_base = spr_walk_up;
 		} break;
 	case -1: break;
 }
@@ -32,7 +32,7 @@ else if ((x_frame + (anim_speed / 60) == anim_length) and facing != -1) x_frame 
 else x_frame = 0;
 
 //Draw Character shadow
-shadow_angle(spr_base, floor(x_frame));
+//shadow_angle(spr_base, floor(x_frame));
 
 //DRAW CHARACTER BASE
 draw_sprite_ext(spr_base, floor(x_frame), x, y, image_xscale, image_yscale, 0, c_white, 1);
