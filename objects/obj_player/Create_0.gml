@@ -16,9 +16,9 @@ y_offset = sprite_get_yoffset(mask_index);
 
 anim_length = -1;
 left_length = 6;
-right_length = 8;
+right_length = 6;
 down_length = 6;
-up_length = 4;
+up_length = 6;
 
 spr_walk_up = spr_silas_walking_up;
 spr_walk_down = spr_silas_walking_down;
