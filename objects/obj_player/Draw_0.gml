@@ -25,9 +25,21 @@ switch(facing) {
 var xx = x - x_offset;
 var yy = y - y_offset;
 
+if (climbing) {
+	anim_length = climbing_length;
+	spr_base = spr_climbing;
+}
+
 //INCREMENT FRAME FOR ANIMATION
 if ((x_frame + (anim_speed / 60) < anim_length) and facing != -1) x_frame += anim_speed / 60
-else if ((x_frame + (anim_speed / 60) >= anim_length) and facing != -1) x_frame = 1
+else if ((x_frame + (anim_speed / 60) >= anim_length) and facing != -1) {
+	if (!climbing) {
+		x_frame = 1;
+	}
+	else {
+		x_frame = 0;
+	}
+}
 else x_frame = 0;
 
 //Draw Character shadow

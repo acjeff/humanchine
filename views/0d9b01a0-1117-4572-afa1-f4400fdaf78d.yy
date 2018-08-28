@@ -15,7 +15,10 @@
         "4c39c0e3-31e1-48b3-b17f-4e9f3eee410e",
         "a44c8e4b-8108-49b4-878b-f4e94cb693ee",
         "401a1d20-ea4c-4beb-872b-cd2a6b012225",
-        "15d55303-8268-43ac-ad9f-c697ed79db35"
+        "15d55303-8268-43ac-ad9f-c697ed79db35",
+        "53b4c2eb-2aeb-4229-bc8e-135cc7653d89",
+        "f97df55a-98a1-4606-8e02-0f368622c0c8",
+        "0c6b1951-529c-4f5f-86e5-381ecf765e04"
     ],
     "filterType": "GMObject",
     "folderName": "Meta",

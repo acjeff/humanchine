@@ -8,6 +8,8 @@ n_spd = 2;
 r_spd = 3;
 spd = n_spd;
 
+climbing = -1;
+
 x_frame = 1;
 y_frame = 0;
 
@@ -19,11 +21,13 @@ left_length = 6;
 right_length = 6;
 down_length = 6;
 up_length = 6;
+climbing_length = 6;
 
 spr_walk_up = spr_silas_walking_up;
 spr_walk_down = spr_silas_walking_down;
 spr_walk_left = spr_silas_walking_left;
 spr_walk_right = spr_silas_walking_right;
+spr_climbing = spr_silas_climbing;
 spr_base = spr_walk_down;
 
 spr_shadow = spr_character_shadow;
