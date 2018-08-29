@@ -10,11 +10,13 @@ input_interact = keyboard_check_pressed(ord("E"));
 
 
 //ALTER SPEED
-if (input_walk or input_run) {
-	spd = abs((input_walk * w_spd) - (input_run * r_spd));
-} else {
+if (!climbing) {
 	spd = n_spd;
 }
+else {
+	spd = w_spd;
+}
+
 
 //RESET MOVE VARIABLES
 moveX = 0;

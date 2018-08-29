@@ -16,6 +16,7 @@ y_frame = 0;
 x_offset = sprite_get_xoffset(mask_index);
 y_offset = sprite_get_yoffset(mask_index);
 
+anim_speed = -1;
 anim_length = -1;
 left_length = 6;
 right_length = 6;
