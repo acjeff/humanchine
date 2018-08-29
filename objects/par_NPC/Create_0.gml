@@ -26,6 +26,15 @@ spr_walk_right = -1;
 spr_walk_up = -1;
 spr_walk_down = -1;
 
+anim_length = -1;
+anim_speed = -1;
+anim_length = -1;
+left_length = -1;
+right_length = -1;
+down_length = -1;
+up_length = -1;
+
+
 
 moveX = 0;
 moveY = 0;

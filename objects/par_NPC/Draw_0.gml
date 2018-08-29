@@ -1,22 +1,21 @@
 /// @description
-var anim_length = 9;
 var frame_size = 128;
 var anim_speed = 8;
 
 if (moveX < 0) {
-	anim_length = 8;
+	anim_length = left_length;
 	spr_base = spr_walk_left;
 }
 else if (moveX > 0) {
-	anim_length = 8;
+	anim_length = right_length;
 	spr_base = spr_walk_right;
 }
 else if (moveY > 0) {
-	anim_length = 8;
+	anim_length = down_length;
 	spr_base = spr_walk_down;
 }
 else if (moveY < 0) {
-	anim_length = 4;
+	anim_length = up_length;
 	spr_base = spr_walk_up;
 }
 
