@@ -37,7 +37,7 @@ facing = 0;
 
 portrait_index = 2;
 voice = snd_voice1;
-name = "Player";
+name = "Silas";
 
 radius = 32;
 active_textbox = noone;

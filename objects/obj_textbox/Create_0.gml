@@ -10,9 +10,9 @@ port_height = sprite_get_height(portrait);
 namebox_width = sprite_get_width(namebox);
 namebox_height = sprite_get_height(namebox);
 
-port_x = (global.game_width - box_width - port_width) * 0.5;
-port_y= (global.game_height * 0.98) - port_height;
-box_x = port_x + port_width;
+port_x = (global.game_width - box_width - 128) * 0.5;
+port_y= (global.game_height * 0.98) - 128;
+box_x = port_x + 128;
 box_y = port_y;
 namebox_x = port_x;
 namebox_y = box_y - namebox_height;
@@ -23,7 +23,7 @@ text_x = box_x + x_buffer;
 text_y = box_y + y_buffer;
 name_text_x = namebox_x + (namebox_width / 2);
 name_text_y = namebox_y + (namebox_height / 2);
-text_max_width = box_width - (2 * x_buffer);
+text_max_width = 800;
 
 portrait_index = 0;
 counter = 0;
