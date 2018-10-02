@@ -8,10 +8,9 @@ input_walk = keyboard_check(vk_control);
 input_run = keyboard_check(vk_shift);
 input_interact = keyboard_check_pressed(ord("E"));
 
-
 //ALTER SPEED
 if (!climbing) {
-	spd = n_spd;
+	spd = 2;
 }
 else {
 	spd = w_spd;
@@ -117,8 +116,10 @@ if(input_interact) {
 }
 
 //APPLY MOVEMENT
-x += moveX;
-y += moveY;
+if (!frozen) {
+	x += moveX;
+	y += moveY;
+}
 
 if (input_left or input_right or input_up or input_down) {
 	//the player is moving

@@ -1711,6 +1711,14 @@
             }
         },
         {
+            "Key": "ba9b4825-4a96-42ba-b27a-b29a66aff880",
+            "Value": {
+                "id": "e32fb5d6-04db-4736-8a57-8ccab1c5a9a0",
+                "resourcePath": "objects\\obj_incline\\obj_incline.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bacf2171-4ae7-41bb-b656-e98b21e91985",
             "Value": {
                 "id": "7aeac8be-e3d8-4324-8f50-e82e8566c076",

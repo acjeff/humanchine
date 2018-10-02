@@ -33,8 +33,9 @@ if (climbing) {
 }
 
 //INCREMENT FRAME FOR ANIMATION
-if ((x_frame + (anim_speed / 60) < anim_length) and facing != -1) x_frame += anim_speed / 60
-else if ((x_frame + (anim_speed / 60) >= anim_length) and facing != -1) {
+
+if ((floor(x_frame + (anim_speed / 60)) < anim_length) and facing != -1) x_frame += anim_speed / 60
+else if ((floor(x_frame + (anim_speed / 60)) >= anim_length) and facing != -1) {
 	if (!climbing) {
 		x_frame = 1;
 	}

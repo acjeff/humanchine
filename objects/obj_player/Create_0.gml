@@ -23,6 +23,7 @@ right_length = 6;
 down_length = 6;
 up_length = 6;
 climbing_length = 6;
+frozen = -1;
 
 spr_walk_up = spr_silas_walking_up;
 spr_walk_down = spr_silas_walking_down;
